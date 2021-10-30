@@ -1,15 +1,10 @@
 import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
-import SideBar from '.components/SideBar';
-import { BrowserRouter as Router } from 'react-router-dom';
+import Navibar from './components/Navibar/Navibar'
 
-function App() {
-  return (
-   <Router>
-      <SideBar />
-   </Router>
-  );
-}
+import './App.css';
+
+const App = () => (
+    <Navibar />
+);
 
 export default App;
